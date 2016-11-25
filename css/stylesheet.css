@@ -1,0 +1,57 @@
+body {
+  margin: 50px 1em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+blockquote {
+  color: gray;
+  font-size: 2em;
+  margin-top: 0.2em;
+}
+
+/* Headshot */
+#headshot {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+img {
+  position: absolute;
+  margin: auto;
+  /*min-height: 400px;
+  min-width: 400px;*/
+  left: -90%;
+  right: -100%;
+  top: -40%;
+  bottom: -100%;
+}
+
+/* Utility */
+.btn {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.btn:hover{
+  color: grey;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
